@@ -35,36 +35,7 @@
 			background-color: #fafafa;
 			border-color: #cccccc
 		}
-		.sidebar .input-checkbox, .sidebar .input-radio {
-			border-color: #d5d5d5
-		}
-		.sidebar .input-checkbox:hover, .sidebar .input-radio:hover {
-			border-color: #c8c8c8
-		}
-		.sidebar .input-checkbox:disabled, .sidebar .input-radio:disabled {
-			background-color: whitesmoke;
-			border-color: #c8c8c8
-		}
-		.content-box .input-checkbox, .content-box .input-radio {
-			border-color: #d9d9d9
-		}
-		.content-box .input-checkbox:hover, .content-box .input-radio:hover {
-			border-color: #cccccc
-		}
-		.content-box .input-checkbox:disabled, .content-box .input-radio:disabled {
-			background-color: #fafafa;
-			border-color: #cccccc
-		}
-		.leaflet-popup-content .input-checkbox, .leaflet-popup-content .input-radio {
-			border-color: #d9d9d9
-		}
-		.leaflet-popup-content .input-checkbox:hover, .leaflet-popup-content .input-radio:hover {
-			border-color: #cccccc
-		}
-		.leaflet-popup-content .input-checkbox:disabled, .leaflet-popup-content .input-radio:disabled {
-			background-color: #fafafa;
-			border-color: #cccccc
-		}
+		
 		.input-checkbox:after, .input-radio:after {
 			content: "";
 			display: block;
@@ -117,89 +88,15 @@
 			background-image: url(http://cdn.shopify.com/s/assets/checkout_stable/checkbox-tick-9f17bee7b5e3ada22164b6e06ce6153e54484a9348bea333a9ff6ba1460cfe8d.png);
 			background-image: url(http://cdn.shopify.com/s/assets/checkout_stable/checkbox-tick-66a9a39f70a44a226223ef4c61a701d2d10afaa73ba8846a509fbe58a82f3f36.svg), none
 		}
-		.radio-wrapper, .checkbox-wrapper {
-			zoom: 1
-		}
-		.radio-wrapper:after, .radio-wrapper:before, .checkbox-wrapper:after, .checkbox-wrapper:before {
-			content: "";
-			display: table
-		}
-		.radio-wrapper:after, .checkbox-wrapper:after {
-			clear: both
-		}
-		.display-table .radio-wrapper, .display-table .checkbox-wrapper {
-			display: table;
-			box-sizing: border-box;
-			width: 100%
-		}
-		.checkbox-wrapper {
-			margin-bottom: 1em
-		}
-		.checkbox-wrapper:last-child {
-			margin-bottom: 0
-		}
-		.checkbox-wrapper.content-box__row {
-			margin-bottom: 0
-		}
-		.radio__input, .checkbox__input {
-			padding-right: 0.75em;
-			white-space: nowrap
-		}
-		.display-table .radio__input, .display-table .checkbox__input {
-			display: table-cell
-		}
-		.no-js .radio__input, .no-display-table .radio__input, .no-js .checkbox__input, .no-display-table .checkbox__input {
-			float: left
-		}
-		.radio__label, .checkbox__label {
-			cursor: pointer;
-			vertical-align: middle
-		}
-		.display-table .radio__label, .display-table .checkbox__label {
-			display: table-cell;
-			width: 100%
-		}
-		.no-js .radio__label, .no-display-table .radio__label, .no-js .checkbox__label, .no-display-table .checkbox__label {
-			float: left
-		}
-		.radio__label__primary {
-			vertical-align: middle
-		}
-		.display-table .radio__label__primary {
-			display: table-cell;
-			width: 100%
-		}
-		.no-js .radio__label__primary, .no-display-table .radio__label__primary {
-			float: left
-		}
-		.radio__label__accessory {
-			padding-left: 0.75em;
-			white-space: nowrap
-		}
-		.display-table .radio__label__accessory {
-			display: table-cell
-		}
-		.no-js .radio__label__accessory, .no-display-table .radio__label__accessory {
-			float: right
-		}
-		.radio__label__accessory .payment-icon {
-			margin: -2px 0 -6px
-		}
 	</style>
 </head>
 <body>
-	
 	<div class="main">
-
-		<div class="checkbox__input">
-			<input class="input-checkbox" type="checkbox" value="1" name="checkout" id="checkout1"> sample checkbox
-		</div>
+		<input class="input-checkbox" type="checkbox" value="1" name="checkout" id="checkout1"> sample checkbox
 		<br><br>
-		<div class="radio__input">
-			<input type="radio" class="input-radio" name="chk1"> radio button 1
-			<br><br>
-			<input type="radio" class="input-radio" name="chk1"> radio button 2
-		</div>
+		<input type="radio" class="input-radio" name="chk1"> radio button 1
+		<br><br>
+		<input type="radio" class="input-radio" name="chk1"> radio button 2
 	</div>
 </body>
 </html>
